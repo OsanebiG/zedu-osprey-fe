@@ -1,0 +1,32 @@
+[1mdiff --git a/src/app/(homepage)/_components/home/Herosection.tsx b/src/app/(homepage)/_components/home/Herosection.tsx[m
+[1mindex 62240ec..3ba2937 100644[m
+[1m--- a/src/app/(homepage)/_components/home/Herosection.tsx[m
+[1m+++ b/src/app/(homepage)/_components/home/Herosection.tsx[m
+[36m@@ -15,10 +15,10 @@[m [mconst HeroSection = () => {[m
+         aria-hidden="true"[m
+         className="pointer-events-none absolute inset-x-0 bottom-0 -z-10 h-[30%] bg-gradient-to-t from-blue-50/30 to-white"[m
+       />[m
+[31m-      <h1 className="text-2xl font-semibold leading-tight text-neutral-900 sm:text-4xl md:text-5xl text-center">[m
+[31m-        Built for Bootcamps and{" "}[m
+[31m-        <span className="text-primary-500">Learning</span> Communities[m
+[31m-      </h1>[m
+[32m+[m[32m    <h1 className="text-2xl font-semibold leading-tight text-neutral-900 sm:text-4xl md:text-5xl text-center">[m
+[32m+[m[32m         Where Learning Meets{" "}[m
+[32m+[m[32m        <span className="text-primary-500">Collaboration</span>[m
+[32m+[m[32m    </h1>[m
+       <p className="max-w-[95%] text-xs text-neutral-600 sm:max-w-[90%] sm:text-base md:max-w-[65%] lg:max-w-[45%] lg:text-lg">[m
+         Talk about structured channels, cohort communication, and affordable[m
+         pricing.[m
+[1mdiff --git a/src/app/(homepage)/page.tsx b/src/app/(homepage)/page.tsx[m
+[1mindex 17e1f61..34ed96d 100644[m
+[1m--- a/src/app/(homepage)/page.tsx[m
+[1m+++ b/src/app/(homepage)/page.tsx[m
+[36m@@ -8,7 +8,7 @@[m [mimport { FAQSection } from "./_components/home/FAQSection";[m
+ import { DynamicFooter } from "./_components/footer/dynamic-footer";[m
+ [m
+ export const metadata: Metadata = {[m
+[31m-  title: "Home",[m
+[32m+[m[32m  title:"Home | Zedu - Connect, Collaborate, Learn",[m
+   description:[m
+     "Zedu is an AI-powered education platform built for bootcamps and learning communities. Organize cohorts, run classes, manage communication, and scale modern learning in one workspace.",[m
+   openGraph: {[m
